@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Sri shyam marketing</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <div class="hero">
+<div class="hero">
   <div class="overlay">
     <h1>Sri Shyam Marketing</h1>
-    <p>Plywood • Laminates • Acrylics • Edge Bands • PVC • Roofing Panels • Rafters • Linners • Baskets • Drawer Sliders • Charcoal Panels<p>
+    <p>Plywood • Laminates • Acrylics • Edge Bands • PVC • Roofing Panels • Rafters • Linners • Baskets • Drawer Sliders • Charcoal Panels</p>
   </div>
 </div>
 
@@ -118,10 +107,7 @@
       <h3>Products</h3>
 
       <ul>
-        <li>SF Series</li>
-        <li>SHG Series</li>
-        <li>Texture Laminates</li>
-        <li>Digital Laminates</li>
+        <li>0.8 MM Laminates</li>
       </ul>
 
     </div>
@@ -146,9 +132,7 @@
       <h3>Products</h3>
 
       <ul>
-        <li>Premium Laminates</li>
-        <li>Matte Finish</li>
-        <li>Gloss Finish</li>
+        <li>1 MM Laminates</li>
       </ul>
 
     </div>
@@ -173,9 +157,7 @@
       <h3>Products</h3>
 
       <ul>
-        <li>Decorative Sheets</li>
-        <li>Interior Panels</li>
-        <li>Acrylic Finishes</li>
+        <li>1 MM Laminates</li>
       </ul>
 
     </div>
@@ -200,9 +182,11 @@
       <h3>Products</h3>
 
       <ul>
-        <li>Plywood</li>
-        <li>PVC Boards</li>
-        <li>Interior Solutions</li>
+        <li>Acrylics</li>
+        <li>WPC Boards</li>
+        <li>Grooves</li>
+        <li>Charcoal Laminate</li>
+        <li>Hand-Picked PVC Laminate</li>
       </ul>
 
     </div>
@@ -227,7 +211,7 @@
       <h3>Products</h3>
 
       <ul>
-        <li>Drawer Sliders</li>
+        <li>PVC Laminates</li>
         <li>Handles</li>
         <li>Hardware Accessories</li>
       </ul>
@@ -255,8 +239,7 @@
 
       <ul>
         <li>Baskets</li>
-        <li>Kitchen Accessories</li>
-        <li>Storage Solutions</li>
+        <li>Drawer Sliders</li>
       </ul>
 
     </div>
@@ -282,8 +265,7 @@
 
       <ul>
         <li>Edge Bands</li>
-        <li>Decorative Accessories</li>
-        <li>Interior Materials</li>
+        
       </ul>
 
     </div>
@@ -310,7 +292,7 @@
       <ul>
         <li>Roofing Panels</li>
         <li>Industrial Roofing</li>
-        <li>Exterior Sheets</li>
+        
       </ul>
 
     </div>
@@ -320,43 +302,329 @@
 </section>
 
 <!-- CATALOGUES -->
+
 <section class="catalogues">
 
   <h2>Download Catalogues</h2>
 
   <div class="catalogue-grid">
 
-    <a href="https://example.com/superlam.pdf" class="catalogue-btn">
-      Superlam Catalogue
-    </a>
+    <!-- SUPERLAM -->
+    <div class="catalogue-item">
 
-    <a href="https://example.com/sudecor.pdf" class="catalogue-btn">
-      Sudecor Catalogue
-    </a>
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('superlamCatalogue')">
 
-    <a href="https://example.com/oliviya.pdf" class="catalogue-btn">
-      Oliviya Catalogue
-    </a>
+        Superlam ▼
 
-    <a href="https://example.com/shore.pdf" class="catalogue-btn">
-      Shore Catalogue
-    </a>
+      </button>
 
-    <a href="https://example.com/stanley.pdf" class="catalogue-btn">
-      Stanley Catalogue
-    </a>
+      <div class="catalogue-dropdown"
+           id="superlamCatalogue">
 
-    <a href="https://example.com/butterfly.pdf" class="catalogue-btn">
-      Butterfly Catalogue
-    </a>
+        <a href="SUPERLAM_VIEW_LINK"
+           target="_blank">
 
-    <a href="https://example.com/aldo.pdf" class="catalogue-btn">
-      Aldo Catalogue
-    </a>
+           View Catalogue
 
-    <a href="https://example.com/lotus.pdf" class="catalogue-btn">
-      Lotus Roofing Panels Catalogue
-    </a>
+        </a>
+
+        <a href="SUPERLAM_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- SUDECOR -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('sudecorCatalogue')">
+
+        Sudecor ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="sudecorCatalogue">
+
+        <a href="SUDECOR_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="SUDECOR_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- OLIVIYA -->
+<div class="catalogue-item">
+
+  <button class="catalogue-main-btn"
+          onclick="toggleCatalogue('oliviyaCatalogue')">
+
+    Oliviya ▼
+
+  </button>
+
+  <div class="catalogue-dropdown"
+       id="oliviyaCatalogue">
+
+    <!-- 1 MM -->
+
+    <button class="sub-btn"
+            onclick="toggleCatalogue('oliviya1mm')">
+
+      1 MM ▼
+
+    </button>
+
+    <div class="sub-dropdown"
+         id="oliviya1mm">
+
+      <a href="1MM_VIEW_LINK"
+         target="_blank">
+
+         View Catalogue
+
+      </a>
+
+      <a href="1MM_DOWNLOAD_LINK"
+         download>
+
+         Download Catalogue
+
+      </a>
+
+    </div>
+
+    <!-- NEON -->
+
+    <button class="sub-btn"
+            onclick="toggleCatalogue('oliviyaNeon')">
+
+      Neon ▼
+
+    </button>
+
+    <div class="sub-dropdown"
+         id="oliviyaNeon">
+
+      <a href="NEON_VIEW_LINK"
+         target="_blank">
+
+         View Catalogue
+
+      </a>
+
+      <a href="NEON_DOWNLOAD_LINK"
+         download>
+
+         Download Catalogue
+
+      </a>
+
+    </div>
+
+    <!-- LOUVERS -->
+
+    <button class="sub-btn"
+            onclick="toggleCatalogue('oliviyaLouvers')">
+
+      Louvers ▼
+
+    </button>
+
+    <div class="sub-dropdown"
+         id="oliviyaLouvers">
+
+      <a href="https://drive.google.com/file/d/1YuS8Mwo_q2jDTeBRXhG-W7ZCBrwub0zY/view?usp=drive_link"
+         target="_blank">
+
+         View Catalogue
+
+      </a>
+
+      <a href="https://drive.google.com/file/d/1YuS8Mwo_q2jDTeBRXhG-W7ZCBrwub0zY/view?usp=sharing"
+         download>
+
+         Download Catalogue
+
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+    <!-- SHORE -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('shoreCatalogue')">
+
+        Shore ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="shoreCatalogue">
+
+        <a href="SHORE_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="SHORE_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- STANLEY -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('stanleyCatalogue')">
+
+        Stanley ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="stanleyCatalogue">
+
+        <a href="STANLEY_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="STANLEY_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- BUTTERFLY -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('butterflyCatalogue')">
+
+        Butterfly ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="butterflyCatalogue">
+
+        <a href="BUTTERFLY_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="BUTTERFLY_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- ALDO -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('aldoCatalogue')">
+
+        Aldo ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="aldoCatalogue">
+
+        <a href="ALDO_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="ALDO_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- LOTUS -->
+    <div class="catalogue-item">
+
+      <button class="catalogue-main-btn"
+              onclick="toggleCatalogue('lotusCatalogue')">
+
+        Lotus Roofing Panels ▼
+
+      </button>
+
+      <div class="catalogue-dropdown"
+           id="lotusCatalogue">
+
+        <a href="LOTUS_VIEW_LINK"
+           target="_blank">
+
+           View Catalogue
+
+        </a>
+
+        <a href="LOTUS_DOWNLOAD_LINK"
+           download>
+
+           Download Catalogue
+
+        </a>
+
+      </div>
+
+    </div>
 
   </div>
 
@@ -376,14 +644,49 @@
   </p>
 
   <p>✉️ srishyammarketing@gmail.com</p>
-
-</section>
-
-<a class="whatsapp" href="https://wa.me/919032747474" target="_blank">
-  WhatsApp
-</a>
-    <script  src="./script.js"></script>
-
-  </body>
   
-</html>
+  </section>
+
+<!-- WHATSAPP DROPDOWN -->
+
+<div class="whatsapp-container">
+
+  <button class="whatsapp-main-btn" onclick="toggleWhatsAppMenu()">
+
+    WhatsApp ▼
+
+  </button>
+
+  <div class="whatsapp-dropdown" id="whatsappDropdown">
+    
+     <a href="https://wa.me/919032747474"
+       target="_blank">
+
+       Umang Patel
+
+    </a>
+    
+    <a href="https://wa.me/91"
+       target="_blank">
+
+       Shop Number 1
+
+    </a>
+    
+    <a href="https://wa.me/91NUMBER2"
+       target="_blank">
+
+       Shop Number 2
+
+    </a>
+
+    <a href="https://wa.me/919032921374"
+       target="_blank">
+
+       Vishal Desai
+
+    </a>
+
+  </div>
+
+</div>
